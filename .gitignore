@@ -1,0 +1,24 @@
+# Dependências instaladas via npm
+node_modules
+
+# Arquivos de build ou output
+dist/
+build/
+
+# Arquivos de log
+logs
+*.log
+
+# Arquivos de configuração locais
+.env
+
+# Arquivos gerados automaticamente
+.DS_Store
+.vscode/
+
+# Outros arquivos temporários
+*.tmp
+
+# Arquivos que contêm chaves de API ou informações sensíveis
+.env.local
+.env.production
