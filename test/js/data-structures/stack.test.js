@@ -4,7 +4,7 @@ test("Deve adicionar os valores 5 e 8 a pilha", () => {
     const stack = new Stack();
     stack.push(5);
     stack.push(8);
-    expect(stack.toString()).toBe("5, 8");
+    expect(stack.toString()).toBe("5,8");
 })
 
 test("Deve remover o ultimo valor da pilha", () => {
@@ -58,5 +58,5 @@ test("Deve retornar a pilha em formato de string", () => {
     stack.push(8);
     stack.push(15);
     stack.push(18);
-    expect(stack.toString()).toBe("5, 8, 15, 18");
+    expect(stack.toString()).toBe("5,8,15,18");
 })
